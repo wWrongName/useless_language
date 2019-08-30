@@ -15,8 +15,8 @@ The structure.
             3 :x divide
         Table3 (loop):
             0 < assignment
-            1 @ beginning of a condition and beginning of a     		   loop
-            2 > end of a condition (all actions of a loop 			   announce after main function)
+            1 @ beginning of a condition and beginning of a loop
+            2 > end of a condition (all actions of a loop announce after main function)
             3 @> end of loop
         Table4 (logical):
             0 :b greater
