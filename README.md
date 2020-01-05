@@ -1,5 +1,5 @@
 # useless_language
-Interpreter for little esoteric language (Type RAW for more comfortable viewing)
+Interpreter for little esoteric language
 
 The structure.
 -->numbers (number 0)
