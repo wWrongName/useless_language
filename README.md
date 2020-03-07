@@ -1,13 +1,13 @@
 # useless_language
 Interpreter for little esoteric language
 
-The structure.
--->numbers (number 0)
--->variable tables and buffer:
-    table of variables (number 1)
-    temporary buffer for compiler
--->permanent tables
-    key symbols(mathematical, loop, logical, system)
+#### The structure.
+* numbers (number 0)
+* variable tables and buffer:
+    1. table of variables (number 1)
+    2. temporary buffer for compiler
+* permanent tables
+    1. key symbols(mathematical, loop, logical, system)
 - Table2 (mathematical):
 0. :) plus
 1. :( minus
@@ -27,18 +27,19 @@ The structure.
 0. :wow show character
 1. :lol show digit
 2. <-
-Conditions.
--->name of loop must be numbered (@1 or @2 etc.)
--->:lol comand show only one variable
 
-Example.
-->
-{1}<25}
-{2}<50}
-{2}<{1}:){2} 
-@1}{1}:!65}>
-:lol{1}
-<-
-@1}
-{1}<{1}:(5}
-@>
+#### Conditions.
+- name of loop must be numbered (@1 or @2 etc.)
+- :lol comand show only one variable
+
+#### Example.
+- ->
+- {1}<25}
+- {2}<50}
+- {2}<{1}:){2} 
+- @1}{1}:!65}>
+- :lol{1}
+- <-
+- @1}
+- {1}<{1}:(5}
+- @>
