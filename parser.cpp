@@ -67,7 +67,7 @@ int parser(std::deque<int> *lexemes, bool outside_call) {
                 else if (lexeme == num)
                     std::cout << (char)lexeme1;
                 else 
-                   return NERR; 
+                    return NERR; 
             }
             else {
                 if (lexeme == var)
@@ -75,7 +75,7 @@ int parser(std::deque<int> *lexemes, bool outside_call) {
                 else if (lexeme == num)
                     std::cout << lexeme1;
                 else 
-                   return NERR;
+                    return NERR;
             }
         }
         else if ((lexeme == loop) && (lexeme1 == l_end))

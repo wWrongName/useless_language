@@ -13,7 +13,7 @@ typedef struct DOUBLE_VAR {
 
 typedef struct LOOP_CONDITION {
     d_var first;
-    int symbol;
+    int   symbol;
     d_var second;
 } L_C;
 
@@ -23,11 +23,11 @@ typedef struct P_NODE {
     d_var symbol;
 } p_node;
 
-enum tables {num, var, math, loop, logg, sys};
+enum tables       {num, var, math, loop, logg, sys};
 enum math_symbols {plus, minus, multiply, divide};
 enum log_symbols  {greater, less, equal, n_equal};
-enum loop_table {assignment, c_begin, c_end, l_end};
-enum sys_table  {s_letter, s_num, m_end};
+enum loop_table   {assignment, c_begin, c_end, l_end};
+enum sys_table    {s_letter, s_num, m_end};
 
 p_node *insert_lp(p_node*, d_var*, d_var*);
 p_node *insert_hp(p_node*, d_var*, d_var*);
